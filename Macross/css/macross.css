@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* styles for layout */
+html,body
+{
+    height:100%;
+    
+}
+
+body
+{
+    padding-top: 41px;
+}
+
+
+
+.scrollup{
+    width:40px;
+    height:40px;
+    opacity:0.3;
+    position:fixed;
+    bottom:50px;
+    right:100px;
+    display:none;
+    text-indent:-9999px;
+    background: url('/img/icon_top.png') no-repeat;
+}
+
+
+
+ 
+.footer 
+{
+    position: relative;
+    margin-top: -150px; /* negative value of footer height */
+    height: 150px;
+    clear:both;
+    padding-top:20px;
+    color:#fff;
+} 
+
+
+.header {
+	padding: 0px 0 0px;
+    border-bottom: 1px solid #E5E5E5;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.jumbotron {
+    background-color: #FAFAFA;
+    border-bottom: 1px solid #E5E5E5;
+    margin-bottom: 10px;
+    padding: 1px 0 10px;
+}
+
+.tab-content {
+    overflow:visible
+}
+
+.fuelux .tab-content {
+    overflow:visible
+}
+
+
+.dropdown-menu {
+    max-height: 250px;
+    overflow: auto;
+}
+
+
+.right {
+    float: right;
+}
+
+
+.footer-divider {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+/*    border-color: #EEEEEE -moz-use-text-color -moz-use-text-color;*/
+    border-image: none;
+/*    border-right: 0 none;*/
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    border-color: #E5E5E5;
+    margin: 10 0 10px;
+}
+
+
+.container_chart{
+	max-height:462px;
+	position: relative;
+}
+
+
+#wrap
+{
+  min-height: 100%;  
+}
+ 
+#main
+{
+    overflow:auto;
+    padding-bottom:150px; /* this needs to be bigger than footer height*/
+}
+#footer {
+	position: fixed;
+	background-color: #FAFAFA;
+	bottom: 0;
+	width : 100%;
+    color: #999999;
+    font-size: 11px;
+    line-height: 0;
+    margin: 0px 0 0;
+    text-shadow: 0 1px 0 #FAFAFA;
+}
+#footer_push{
+	height: 25px;
+}
+#footer_contain{
+	margin-top: 10px;
+}
+
+#footer .container {
+    border-top: 1px solid #EEEEEE;
+    padding: 10px 0;
+}
+

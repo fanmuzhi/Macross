@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="lib/timepicker/css/datetimepicker.css" rel="stylesheet" />
+    <link href="lib/select2/select2.css" rel="stylesheet" />
+    <link href="lib/iCheck-master/skins/flat/aero.css" rel="stylesheet">
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/fuelux/css/fuelux.min.css" rel="stylesheet">
+    <link href="lib/DataTables/media/css/jquery.dataTables.css" rel="stylesheet">
+    <link href="lib/tablecloth/assets/css/tablecloth.css" rel="stylesheet">
+    <link href="lib/HubSpot/build/css/messenger.css" rel="stylesheet">
+    <link href="lib/HubSpot/build/css/messenger-theme-future.css" rel="stylesheet">
+    <link href="lib/tablecloth/assets/css/tablecloth.css" rel="stylesheet">
+    <link href="css/macross.css" rel="stylesheet" />
+
+    <script src="js/lib/jquery.min.js" type="text/javascript"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="lib/Highcharts/js/highcharts.js" type="text/javascript"></script>
+    <script src="lib/select2/select2.min.js" type="text/javascript"></script>
+    <script src="lib/timepicker/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+    <script src="lib/iCheck-master/jquery.icheck.min.js"></script>
+    <script src="lib/DataTables/media/js/jquery.dataTables.min.js"></script>
+    <script src="lib/tablecloth/assets/js/jquery.tablecloth.js"></script>
+    <script src="lib/tablecloth/assets/js/jquery.tablesorter.js"></script>
+    <script src="lib/tablecloth/assets/js/jquery.metadata.js"></script>
+	<script src="lib/HubSpot/build/js/messenger.min.js"></script>
+	
+    <title>Cypress Trackpad Manufacturing Test Statistics</title>
+</head>
+
+<body>
+<button id = "test">test</button>
+<script>
+$._messengerDefaults = {
+		extraClasses: 'messenger-fixed messenger-theme-ice messenger-on-bottom'
+	};
+$("#test").click(function () {
+	$.globalMessenger().post({
+		  message: 'Error Message',
+		  type: 'error',
+		  showCloseButton: true
+		});
+});
+</script>
+
+<script>
+	
+	
+</script>
+    <script type="text/javascript" src="js/statistics/lib.js"></script>
+    <script type="text/javascript" src="js/statistics/totaltested.js" async="async"></script>
+    <script type="text/javascript" src="js/statistics/totaltestedbyTime.js" async="async"></script>
+    <script type="text/javascript" src="js/statistics/totalYiled.js" async="async"></script>
+    <script type="text/javascript" src="js/statistics/totalYiledbyTime.js" async="async"></script>
+    <script type="text/javascript" src="js/statistics/totalError.js" async="async"></script>
+    <script type="text/javascript" src="js/statistics/totalErrorbyTime.js" async="async"></script>
+    <script type="text/javascript" src="js/statistics/searchDatabase.js" async="async"></script>
+    <script type="text/javascript" src="js/statistics/searchCpk.js" async="async"></script>
+    <script type="text/javascript" src="js/statistics/OneWeekCpk.js" async="async"></script>
+    <script type="text/javascript" src="js/statistics/form_week_list.js" async="async"></script>
+    <script type="text/javascript" src="js/statistics/cpk_trend.js" async="async"></script>
+</body>
+</html>

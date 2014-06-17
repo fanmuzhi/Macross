@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <host>172.23.6.227</host>
+    <user>webserver</user>
+    <pass>ma2jgnAp</pass>
+    <dbname>trackpad</dbname>
+</database>
